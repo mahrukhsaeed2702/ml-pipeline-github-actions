@@ -2,8 +2,8 @@ import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-#from preprocess import load_data, preprocess_data, normalize_data
-from .preprocess import load_data, preprocess_data, normalize_data
+from preprocess import load_data, preprocess_data, normalize_data
+#from .preprocess import load_data, preprocess_data, normalize_data
 
 def train_and_save_model():
     df = load_data()
